@@ -61,11 +61,11 @@ export default function Navbar() {
           <InputBase placeholder="search..." />
         </Search>
         <Icons>
-          <Badge badgeContent={4} color="error">
-            <Mail color="action" />
+          <Badge badgeContent={4}>
+            <Mail />
           </Badge>
-          <Badge badgeContent={2} color="error">
-            <Notifications color="action" />
+          <Badge badgeContent={2}>
+            <Notifications />
           </Badge>
           <UserAvatar />
         </Icons>
